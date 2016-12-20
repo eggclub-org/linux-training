@@ -3,9 +3,9 @@ Source: http://www.johnstowers.co.nz/blog/pages/bash-cheat-sheet
 
 This file contains short tables of commonly used items in this shell. In most cases the information applies to both the Bourne shell (sh) and the newer bash shell.
 
-Tests (for ifs and loops) are done with [ ] or with the test command.
+Tests (for ifs and loops) are done with `[ ]` or with the test command.
 
-**Table of contents**
+## Table of contents
 <!-- MarkdownTOC -->
 - [Checking files](#checking-files)
 - [Checking strings](#checking-strings)
