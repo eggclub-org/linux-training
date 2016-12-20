@@ -1,26 +1,3 @@
-<!-- MarkdownTOC -->
-
-- [Bash Cheat Sheet](#bash-cheat-sheet)
-    - [Checking files](#checking-files)
-    - [Checking strings](#checking-strings)
-    - [Checking numbers](#checking-numbers)
-    - [Boolean operators:](#boolean-operators)
-    - [I/O Redirection](#io-redirection)
-    - [Shell Built-in Variables](#shell-built-in-variables)
-    - [Pattern Matching](#pattern-matching)
-    - [Quoting](#quoting)
-    - [Grouping](#grouping)
-    - [Case statement](#case-statement)
-    - [Loops](#loops)
-    - [Shell Arithmetic](#shell-arithmetic)
-    - [Order of Interpretation](#order-of-interpretation)
-    - [Other Shell Features:](#other-shell-features)
-- [String Operations in Shell](#string-operations-in-shell)
-    - [Search and Replace](#search-and-replace)
-
-<!-- /MarkdownTOC -->
-
-
 # Bash Cheat Sheet
 Source: http://www.johnstowers.co.nz/blog/pages/bash-cheat-sheet
 
@@ -28,6 +5,25 @@ This file contains short tables of commonly used items in this shell. In most ca
 
 Tests (for ifs and loops) are done with [ ] or with the test command.
 
+**Table of contents**
+<!-- MarkdownTOC -->
+- [Checking files](#checking-files)
+- [Checking strings](#checking-strings)
+- [Checking numbers](#checking-numbers)
+- [Boolean operators:](#boolean-operators)
+- [I/O Redirection](#io-redirection)
+- [Shell Built-in Variables](#shell-built-in-variables)
+- [Pattern Matching](#pattern-matching)
+- [Quoting](#quoting)
+- [Grouping](#grouping)
+- [Case statement](#case-statement)
+- [Loops](#loops)
+- [Shell Arithmetic](#shell-arithmetic)
+- [Order of Interpretation](#order-of-interpretation)
+- [Other Shell Features:](#other-shell-features)
+- [String Operations in Shell](#string-operations-in-shell)
+    - [Search and Replace](#search-and-replace)
+<!-- /MarkdownTOC -->
 
 ## Checking files
 ```sh
@@ -307,10 +303,10 @@ cmd1 & cmd2    #Do cmd1, start cmd2 without waiting for cmd1 to finish.
 See a good reference book for information on traps, signals, exporting of variables, functions, eval, source, etc.
 
 
-# String Operations in Shell
+## String Operations in Shell
 http://www.softpanorama.org/Scripting/Shellorama/Reference/string_operations_in_shell.shtml#Search_and_Replace
 
-## Search and Replace
+### Search and Replace
 There are several additional capabilities
 
 ```sh
@@ -324,3 +320,4 @@ ${var/%%substr/repl}    # replace if matches at end (greedy)
 ${#var}                 # returns length of $var
 ${!var}                 # indirect expansion
 ```
+
