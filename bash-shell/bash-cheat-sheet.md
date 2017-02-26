@@ -50,7 +50,7 @@ fi
 s1 = s2     #Check if s1 equals s2.
 s1 != s2    #Check if s1 is not equal to s2.
 -z s1       #Check if s1 has size 0.
--n s1       #Check if s2 has nonzero size.
+-n s1       #Check if s1 has nonzero size.
 s1          #Check if s1 is not the empty string.
 ```
 
